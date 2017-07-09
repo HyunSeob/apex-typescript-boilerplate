@@ -1,0 +1,7 @@
+{
+  "description": "Hello function for Dev",
+  "runtime": "nodejs6.10",
+  "memory": 128,
+  "timeout": 5,
+  "role": "your-iam-role"
+}

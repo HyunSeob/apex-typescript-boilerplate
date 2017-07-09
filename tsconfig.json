@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "output",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./node_modules/@types/*" ]
+    }
+  },
+  "include": [ "./functions/**/*.ts" ]
+}
